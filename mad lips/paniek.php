@@ -11,7 +11,7 @@
     <div class="parent_body">
         <div class=parent_head> <a href="paniek.php"><h3>Er Heerst Paniek...</h3></a> <a href="onkunde.php"><h3>Onkunde</h3></a> </div>
         <h2>Paniek</h2>
-        <form class="form">
+        <form class="form" method="POST" action="paniek_result.php">
             <label>Wat zou je graag willen kunnen?</label> <input type="text" name="v1">
             <label>Met welke persoon kan je goed opschieten?</label> <input type="text" name="v2">
             <label>Wat is je favorite getal?</label> <input type="text" name="v3">
