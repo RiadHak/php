@@ -1,0 +1,9 @@
+.form_body{
+    text-align: center;
+    border: 2px solid;
+    width: 500px;
+}
+
+.error{
+    color: red;
+}

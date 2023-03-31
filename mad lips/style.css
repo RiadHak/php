@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(71, 71, 71);
+}
+body h1{
+    margin-left: 400px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto  ;
+    width: 600px;
+    padding: 15px;
+}
+.form label,input{
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.parent_body{
+    margin-left: 400px;
+    width: 650px;
+    height:600px;
+    background-color: white;
+}
+.parent_body h2{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.parent_head{
+    display: grid;
+    grid-template-columns: auto auto;
+    width:640px ;
+    background-color: darkred;
+    padding: 5px;
+}
+.parent_head a{
+    color: white;
+    text-decoration: none;
+}
+.parent_footer{
+    width:640px ;
+    background-color: rgb(104, 104, 104);
+    padding: 5px;
+    color: white;
+}
+.parent_footer h3{
+    text-align: center;
+}
