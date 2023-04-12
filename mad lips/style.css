@@ -1,17 +1,21 @@
 body{
+    height: 100%;
     background-color: rgb(71, 71, 71);
 }
+
 body h1{
     margin-left: 400px;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .form{
     display: grid;
     grid-template-columns: auto auto  ;
     width: 600px;
     padding: 15px;
 }
+
 .form label,input{
     padding: 7px;
     margin-bottom: 10px;
@@ -20,13 +24,15 @@ body h1{
 .parent_body{
     margin-left: 400px;
     width: 650px;
-    height:600px;
+    height:575px;
     background-color: white;
 }
+
 .parent_body h2{
     padding-top: 10px;
     margin-left: 15px;
 }
+
 .parent_head{
     display: grid;
     grid-template-columns: auto auto;
@@ -34,16 +40,38 @@ body h1{
     background-color: darkred;
     padding: 5px;
 }
+
 .parent_head a{
     color: white;
     text-decoration: none;
 }
-.parent_footer{
-    width:640px ;
-    background-color: rgb(104, 104, 104);
-    padding: 5px;
-    color: white;
+
+.content{
+    padding-bottom: 250px;
+
 }
+
+.parent_footer{
+    width:650px ;
+    padding-top: 10px;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.parent_footer2{
+    width:650px ;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.parent_footer2 h3{
+    text-align: center;
+}
+
 .parent_footer h3{
     text-align: center;
 }
