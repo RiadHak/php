@@ -28,3 +28,8 @@ ul img{
   li a:hover {
     background-color: #111;
   }
+
+.content_image{
+      width: 800px;
+      height: 500px;
+  }

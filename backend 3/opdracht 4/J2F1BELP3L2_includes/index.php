@@ -13,31 +13,14 @@
 
 	<!-- laad hier via php de juiste contentpagina in (vanuit de pages map) in. Welke geselecteerd moet worden kun je uit de URL halen (URL_Params).-->
   <?php
-    if (isset($_GET['subject'])) {
-      include "pages/onderwerp1.php";
-
-    }
-      // if (isset($_GET['name'])) {
-      //   $name = $_GET['name'];
-      //   switch ($name) {
-      //     case 'python':
-      //       include 'pages/onderwerp1.php';
-      //       break;
-      //     case 'islam':
-      //       include 'pages/islam.php';
-      //       break;
-      //     case 'marokko':
-      //       include 'pages/marokko.php';
-      //       break;
-      //     case 'kickboxing':
-      //       include 'pages/kickboxing.php';
-      //       break;
-      //   }
-      // } else {
-      //   echo '<div id="indexDiv">';
-      //   echo '<p id="index">Klik op een van de onderwerpen hierboven</p>';
-      //   echo '</div>';
-      // }
+  if(isset($_GET['name'])){
+    $page = $_GET['name'] ;
+    include "pages/$page.php";
+  }
+  else{
+    echo "kies een van de onderwerpen in de navigationbar";
+  }
+    
   ?>
 	
 	<!-- laad hier via php je footer in (vanuit je includes map)-->
